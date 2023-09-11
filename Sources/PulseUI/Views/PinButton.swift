@@ -1,4 +1,4 @@
-#if APPSTORE
+#if !APPSTORE
 //
 // The MIT License (MIT)
 //
