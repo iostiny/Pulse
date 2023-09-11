@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -110,6 +111,8 @@ struct Previews_NetworkInspectorView_Previews: PreviewProvider {
         }.previewLayout(.fixed(width: 500, height: 800))
     }
 }
+#endif
+
 #endif
 
 #endif

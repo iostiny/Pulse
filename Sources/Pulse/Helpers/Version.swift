@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -66,3 +67,5 @@ struct Version: Comparable, LosslessStringConvertible, Codable, Sendable {
         try container.encode(self.description)
     }
 }
+
+#endif

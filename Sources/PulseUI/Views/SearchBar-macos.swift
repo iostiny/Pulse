@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -60,6 +61,8 @@ private struct SearchBarDemo: View {
         SearchBar(title: "Search", text: $value)
     }
 }
+#endif
+
 #endif
 
 #endif

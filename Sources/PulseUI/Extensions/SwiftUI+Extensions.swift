@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -129,3 +130,5 @@ final class IgnoringUpdates<T>: ObservableObject {
     var value: T
     init(_ value: T) { self.value = value }
 }
+
+#endif

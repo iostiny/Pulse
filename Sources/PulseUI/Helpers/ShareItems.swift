@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -150,3 +151,5 @@ func makeCurrentDate() -> String {
     formatter.dateFormat = "yyyy-MM-dd-HH-mm"
     return formatter.string(from: Date())
 }
+
+#endif

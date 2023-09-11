@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -29,3 +30,5 @@ struct KeyValueRow: Identifiable {
     var title: String { item.0 }
     var details: String? { item.1 }
 }
+
+#endif

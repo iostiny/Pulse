@@ -1,3 +1,4 @@
+#if APPSTORE
 //
 // The MIT License (MIT)
 //
@@ -85,3 +86,5 @@ final class PinButtonViewModel: ObservableObject {
 #endif
 
 private let pinServiceKey = "com.github.kean.pulse.pin-service"
+
+#endif

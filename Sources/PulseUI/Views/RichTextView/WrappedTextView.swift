@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -154,5 +155,7 @@ private func parseTooltip(_ url: URL) -> (title: String?, message: String)? {
     let title = queryItems.first(where: { $0.name == "title" })?.value
     return (title: title, message: message)
 }
+
+#endif
 
 #endif

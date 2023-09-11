@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -169,5 +170,7 @@ extension LoggerStore.Info.DeviceInfo {
 func getDeviceId() -> UUID? {
     return nil
 }
+
+#endif
 
 #endif

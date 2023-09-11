@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -517,5 +518,7 @@ private extension HTTPURLResponse {
         self.init(url: URL(string: url)!, statusCode: statusCode, httpVersion: "http/2.0", headerFields: headers)!
     }
 }
+
+#endif
 
 #endif

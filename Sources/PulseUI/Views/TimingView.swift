@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -189,4 +190,6 @@ private let mockSections = [
         TimingRowViewModel(title: "Download", value: "30.0ms", color: .systemGreen, start: 0.75, length: 100.0)
     ])
 ]
+#endif
+
 #endif

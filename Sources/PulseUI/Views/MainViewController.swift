@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -45,5 +46,7 @@ private func removeAppearanceOverrides() {
     appearance.titleTextAttributes = nil
     appearance.isTranslucent = true
 }
+
+#endif
 
 #endif

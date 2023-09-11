@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -94,3 +95,5 @@ final class URLSessionMockingProtocol: URLProtocol {
 private var numberOfHandledRequests: [UUID: Int] = [:]
 private var mockedTaskIDs: Set<Int> = []
 private let lock = NSLock()
+
+#endif

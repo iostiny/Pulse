@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -122,5 +123,7 @@ extension LoggerStore {
         WatchConnectivityService.shared.session(session, didFinish: fileTransfer, error: error)
     }
 }
+
+#endif
 
 #endif

@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -157,3 +158,5 @@ enum TextWidth {
 private func getPreferredFontSize(for style: UXFont.TextStyle) -> CGFloat {
     UXFont.preferredFont(forTextStyle: style).fontDescriptor.pointSize
 }
+
+#endif

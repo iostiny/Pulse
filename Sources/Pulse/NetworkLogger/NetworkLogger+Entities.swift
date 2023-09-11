@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -535,3 +536,5 @@ private func parseParameter(_ param: Substring) -> (String, String)? {
     }
     return (name.trimmingCharacters(in: .whitespaces), value.trimmingCharacters(in: .whitespaces))
 }
+
+#endif

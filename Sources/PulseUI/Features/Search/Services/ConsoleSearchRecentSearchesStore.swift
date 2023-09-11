@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -70,5 +71,7 @@ private func decode<T: Decodable>(_ type: T.Type, from string: String) -> T? {
         try? JSONDecoder().decode(type, from: $0)
     }
 }
+
+#endif
 
 #endif

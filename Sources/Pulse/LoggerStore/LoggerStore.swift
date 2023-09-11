@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -1333,3 +1334,5 @@ private enum PulseDocumentType {
     /// An archive created by exporting the store.
     case archive(LoggerStore.Info, PulseDocument)
 }
+
+#endif

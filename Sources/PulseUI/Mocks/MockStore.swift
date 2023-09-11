@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -406,5 +407,7 @@ extension Task where Success == Never, Failure == Never {
         try! await sleep(nanoseconds: UInt64(milliseconds) * 1_000_000)
     }
 }
+
+#endif
 
 #endif

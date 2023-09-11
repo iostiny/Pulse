@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -52,5 +53,7 @@ struct InlineTabBarItem: View {
         return text.lineLimit(1)
     }
 }
+
+#endif
 
 #endif

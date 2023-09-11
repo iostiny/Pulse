@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -40,3 +41,5 @@ extension NSMutableAttributedString {
         addAttributes(attributes, range: NSRange(location: 0, length: string.count))
     }
 }
+
+#endif

@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -200,5 +201,7 @@ enum HTTPMethod: String, Hashable, Codable, CaseIterable, CustomStringConvertibl
 
     var description: String { rawValue }
 }
+
+#endif
 
 #endif

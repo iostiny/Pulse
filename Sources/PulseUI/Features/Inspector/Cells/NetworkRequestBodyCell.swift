@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -38,3 +39,5 @@ struct NetworkRequestBodyCellViewModel {
         self.detailsViewModel = NetworkInspectorRequestBodyViewModel(task: task)
     }
 }
+
+#endif

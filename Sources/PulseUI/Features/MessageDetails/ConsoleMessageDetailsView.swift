@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -120,6 +121,8 @@ func makeMockMessage() -> LoggerMessageEntity {
     entity.rawMetadata = "customKey: customValue"
     return entity
 }
+#endif
+
 #endif
 
 #endif

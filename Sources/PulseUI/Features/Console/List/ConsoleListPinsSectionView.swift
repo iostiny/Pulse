@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -50,5 +51,7 @@ private extension NSManagedObject {
 private struct PinCellId: Hashable {
     let id: NSManagedObjectID
 }
+
+#endif
 
 #endif

@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -114,5 +115,7 @@ import Combine
         return try await ShareService.share(entities, store: store, as: output)
     }
 }
+
+#endif
 
 #endif

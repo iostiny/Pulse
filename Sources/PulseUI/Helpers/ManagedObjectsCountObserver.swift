@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -36,3 +37,5 @@ final class ManagedObjectsCountObserver: NSObject, ObservableObject, NSFetchedRe
         self.count = controller.fetchedObjects?.count ?? 0
     }
 }
+
+#endif

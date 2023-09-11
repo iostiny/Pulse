@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -142,3 +143,5 @@ private let possibleFormatters: [DateFormatter] = [
     DateFormatter(dateStyle: .long, timeStyle: .none),
     DateFormatter(dateStyle: .short, timeStyle: .none)
 ]
+
+#endif

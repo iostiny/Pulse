@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -110,5 +111,7 @@ struct NetworkInspectorTransactionView_Previews: PreviewProvider {
 }
 
 private let mockTask = LoggerStore.preview.entity(for: .createAPI)
+
+#endif
 
 #endif

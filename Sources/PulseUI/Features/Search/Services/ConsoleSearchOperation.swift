@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -287,5 +288,7 @@ private final class CachedString {
     let value: String
     init(value: String) { self.value = value }
 }
+
+#endif
 
 #endif

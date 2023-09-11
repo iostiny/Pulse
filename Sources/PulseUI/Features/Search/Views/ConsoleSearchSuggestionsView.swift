@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -103,6 +104,8 @@ struct Previews_ConsoleSearchSuggestionsView_Previews: PreviewProvider {
         .frame(width: 340)
     }
 }
+#endif
+
 #endif
 
 #endif

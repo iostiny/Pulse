@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -164,3 +165,5 @@ struct NetworkInspectorTransferInfoViewModel {
 private func formatBytes(_ count: Int64) -> String {
     ByteCountFormatter.string(fromByteCount: max(0, count))
 }
+
+#endif

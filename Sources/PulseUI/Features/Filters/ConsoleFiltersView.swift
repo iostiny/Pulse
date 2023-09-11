@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -167,4 +168,6 @@ private func makePreview(isOnlyNetwork: Bool) -> some View {
         .injecting(ConsoleEnvironment(store: store))
         .environmentObject(viewModel)
 }
+#endif
+
 #endif

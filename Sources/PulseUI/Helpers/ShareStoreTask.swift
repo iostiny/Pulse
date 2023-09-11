@@ -1,3 +1,4 @@
+#if APPSTORE
 // The MIT License (MIT)
 //
 // Copyright (c) 2020–2023 Alexander Grebenyuk (github.com/kean).
@@ -145,3 +146,5 @@ private func contentForSharing(count: Int) -> NetworkContent {
     }
     return content
 }
+
+#endif
